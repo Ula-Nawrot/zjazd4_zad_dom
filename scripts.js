@@ -26,33 +26,6 @@ for (let i = 0; i < operationButtons.length; i++) {
     })
 }
 
-//Code before refactoring
-// operationButtons[0].addEventListener('click', function () {
-//     const input1 = document.getElementById('input1').value;
-//     const input2 = document.getElementById('input2').value;
-//     resultButton.textContent = Number(input1) + Number(input2);
-    
-// })
-// operationButtons[1].addEventListener('click', function () {
-//     const input1 = document.getElementById('input1').value;
-//     const input2 = document.getElementById('input2').value;
-//     resultButton.textContent = Number(input1) - Number(input2);
-    
-// })
-// operationButtons[2].addEventListener('click', function () {
-//     const input1 = document.getElementById('input1').value;
-//     const input2 = document.getElementById('input2').value;
-//     resultButton.textContent = Number(input1) * Number(input2);
-    
-// })
-// operationButtons[3].addEventListener('click', function () {
-//     const input1 = document.getElementById('input1').value;
-//     const input2 = document.getElementById('input2').value;
-//     resultButton.textContent = Number(input1) / Number(input2);
-    
-// })
-
-
 //Task 2
 const text1 = document.getElementById('text1');
 const text2 = document.getElementById('text2');
