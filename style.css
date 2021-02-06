@@ -1,0 +1,93 @@
+
+:root {
+    --shadow: rgb(34, 42, 30); /*used usually in a text*/
+    --midtone: rgba(196, 172, 146, 0.9);
+    --highlight: rgba(205, 247, 255, 0.8);
+    --accent: rgb(140, 64, 25)
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+    box-sizing: border-box;
+    border-width: 0;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: var(--shadow);
+  }
+.task1{
+    background-image: linear-gradient(to top, #2835bc, #233ec3, #1e46ca, #174ed1, #0f56d7, #085cdb, #0363df, #0069e3, #006fe5, #0075e7, #007be8, #0081e9);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.instruction{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.mathOperation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 6rem;
+    height: 5rem;
+    margin: 1rem;
+    padding: 0.4rem;
+    outline: none;
+    font-size: 3rem;
+    text-align: center;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+.operators button {
+    margin-bottom: 0.2rem;
+}
+.task2{
+    background-image: linear-gradient(to bottom, #aa0009, #b51418, #c02325, #cb2f32, #d53a3f, #dc444b, #e34d56, #ea5762, #f06270, #f56d7d, #fa778a, #ff8297);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.task2 button{
+    background-color:#FFE5DA;
+    border-width: 0;
+    border-radius: 0.2rem;
+    width: 4rem;
+    height: 2rem;
+    margin: 0.5rem;
+    outline: none;
+    box-shadow: 1px 0px 20px 3px rgba(53,53,53,0.58);
+}
+
+.task2 button:hover {
+    background-color: #ffffff;
+}
+
+.task2 button:active {
+    box-shadow: none;
+}
+
+.text{
+    width: 60%;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+p {
+    margin: 0;
+}
+
